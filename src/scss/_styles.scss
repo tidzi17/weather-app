@@ -228,7 +228,17 @@
     }
   
 }
-
+@media only screen and (max-width:1400px){
+    .wrapper{
+        .content-container{
+            &__aside-content{
+                #icon{
+                    margin-right: -7%;
+                }
+            }
+        }
+    }
+}
 @media only screen and (max-width:1024px){
      .wrapper{
         .content-container{
@@ -342,6 +352,11 @@
         }
         &__aside-content{
             width: 100%;
+            #icon{
+                margin-right: -25%;
+                width: 17px;
+                height: 17px;
+            }
             #heading{
                 font-size: 14px;
             }
@@ -386,6 +401,14 @@
                         font-size: 30px;
                     }
                 }
+            }
+            &__aside-content{
+                width: 100%;
+                #icon{
+                    margin-right: -15%;
+                    
+                }
+               
             }
         }
     }

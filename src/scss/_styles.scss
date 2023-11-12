@@ -59,7 +59,7 @@
                 #search{
                     background: transparent;
                     margin-left: 2% ; 
-                    width: 25%;
+                    width: 35%;
                     border: none;
                     height: 25px;
                    outline: none;
@@ -301,13 +301,35 @@
             flex-direction: column;
             align-items: center;
             height: 150vh;
+            gap: 3%;
             
             &__main-content{
                 width: 100%;
+                &__search-container{
+                    #search{
+                        &::placeholder,
+                        &:not(:placeholder-shown){
+                        font-size: 14px;
+                       }
+                }
             }
-            &__aside-content{
-                width: 100%;
+            &__hours-container{
+                height: 35%;
+                p{
+                    font-size: 14px;
+                    margin-top: 3%;
+                }
+                #hour{
+                    font-size: 12px;
+                }
+                #hour-temp{
+                    font-size: 35px;
+                }
             }
         }
+        &__aside-content{
+            width: 100%;
+        }
     }
+}
 }

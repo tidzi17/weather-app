@@ -345,6 +345,11 @@
     .wrapper{
         .content-container{
             &__main-content{
+                &__temp-container{
+                    #weather-icon{
+                        padding-right: 50%;
+                    }
+                }
                 &__hours-container{
                     height: 30%;
                     &__content{

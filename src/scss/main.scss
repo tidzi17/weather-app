@@ -4,8 +4,8 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: $primary;
-    /* overflow: hidden; */
+    /* background-color: $primary */;
+    background: linear-gradient(to bottom, #141D2B 0%,  #141D2B 100%);
     font-family: 'Inter', sans-serif;
     
 }

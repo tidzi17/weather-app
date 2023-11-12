@@ -3,14 +3,13 @@
   height: 100vh;
   display: flex;
   overflow: hidden;
-  /* background: linear-gradient(to bottom, #141D2B 0%,  #141D2B 100%); */
 }
 .wrapper .clouds-container {
   position: relative;
 }
 .wrapper .clouds-container .clouds {
   width: 200vw;
-  height: 440px;
+  height: 500px;
   display: flex;
   position: absolute;
   white-space: nowrap;
@@ -337,8 +336,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #111822;
-  /* overflow: hidden; */
+  /* background-color: $primary */
+  background: linear-gradient(to bottom, #141D2B 0%, #141D2B 100%);
   font-family: "Inter", sans-serif;
 }
 

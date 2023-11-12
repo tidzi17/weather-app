@@ -10,7 +10,7 @@
         
         .clouds{
             width: 200vw;
-            height: 400px;
+            height: 440px;
             display: flex;
             position: absolute;
             white-space: nowrap;
@@ -56,6 +56,7 @@
                 background-color: $primary-bg;
                 display: flex;
                 align-items: center;
+                box-shadow: 0 0 20px rgba(35, 35, 35, 0.2);
                 #search{
                     background: transparent;
                     margin-left: 2% ; 
@@ -120,6 +121,7 @@
                 background-color: $primary-bg;
                 display: flex;
                 flex-direction: column;
+                box-shadow: 0 0 20px rgba(35, 35, 35, 0.4);
                 p{
                     margin-top: 1.5%;
                     margin-left: 4%;
@@ -136,6 +138,7 @@
                     margin-top: 1%;
                     display: flex;
                     justify-content: space-around;
+                    
                     &__item{
                         border-right: 1px solid white;
                         box-sizing: border-box;
@@ -169,6 +172,7 @@
             background-color: $primary-bg;
             display: flex;
             flex-direction: column;
+            box-shadow: 0 0 20px rgba(35, 35, 35, 0.3);
             #heading{
                 font-size: 20px;
                 color: $text-primary;
@@ -297,6 +301,11 @@
 @media only screen and (max-width: 768px){
     .wrapper{
        height: auto;
+       .clouds-container{
+        .clouds{
+            height: 350px;
+        }
+    }
         .content-container{
             flex-direction: column;
             align-items: center;

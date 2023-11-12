@@ -300,6 +300,9 @@
   .wrapper .content-container {
     gap: 0%;
   }
+  .wrapper .content-container__main-content__temp-container {
+    padding-top: 6%;
+  }
   .wrapper .content-container__main-content__temp-container #weather-icon {
     padding-right: 50%;
   }

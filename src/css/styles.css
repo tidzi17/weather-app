@@ -275,6 +275,10 @@
   .wrapper .content-container__main-content__hours-container {
     height: 35%;
   }
+  .wrapper .content-container__main-content__hours-container__content {
+    height: 50%;
+    width: 100%;
+  }
   .wrapper .content-container__main-content__hours-container p {
     font-size: 14px;
     margin-top: 3%;
@@ -290,6 +294,25 @@
   }
   .wrapper .content-container__aside-content #heading {
     font-size: 14px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .wrapper .content-container__main-content__hours-container {
+    height: 30%;
+  }
+  .wrapper .content-container__main-content__hours-container__content {
+    height: 50%;
+    width: 100%;
+  }
+  .wrapper .content-container__main-content__hours-container p {
+    font-size: 14px;
+    margin-top: 3%;
+  }
+  .wrapper .content-container__main-content__hours-container #hour {
+    font-size: 10px;
+  }
+  .wrapper .content-container__main-content__hours-container #hour-temp {
+    font-size: 30px;
   }
 }
 body {

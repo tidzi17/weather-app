@@ -315,6 +315,10 @@
             }
             &__hours-container{
                 height: 35%;
+                &__content{
+                    height: 50%;
+                    width: 100%;
+                }
                 p{
                     font-size: 14px;
                     margin-top: 3%;
@@ -335,4 +339,30 @@
         }
     }
 }
+}
+
+@media only screen and (max-width: 470px){
+    .wrapper{
+        .content-container{
+            &__main-content{
+                &__hours-container{
+                    height: 30%;
+                    &__content{
+                        height: 50%;
+                        width: 100%;
+                    }
+                    p{
+                        font-size: 14px;
+                        margin-top: 3%;
+                    }
+                    #hour{
+                        font-size: 10px;
+                    }
+                    #hour-temp{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
 }

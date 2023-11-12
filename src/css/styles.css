@@ -1,5 +1,6 @@
 .wrapper {
   width: 100%;
+  height: 100vh;
   display: flex;
   overflow: hidden;
   /* background: linear-gradient(to bottom, #141D2B 0%,  #141D2B 100%); */
@@ -256,9 +257,13 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  .wrapper {
+    height: auto;
+  }
   .wrapper .content-container {
     flex-direction: column;
     align-items: center;
+    height: 150vh;
   }
   .wrapper .content-container__main-content {
     width: 100%;

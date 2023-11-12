@@ -8,17 +8,104 @@
 </head>
 <body>
     <div class="wrapper">
+        <div class="clouds-container">
     <div class="clouds">
         <img src="./src/assets/clouds.png" alt="" class="cloud">
         <img src="./src/assets/clouds.png" alt="" class="cloud">
     </div>
+</div>
     <main class="content-container">
         <div class="content-container__main-content">
-            <div class="content-container__main-content__search-container"></div>
-            <div class="content-container__main-content__temp-container"></div>
-            <div class="content-container__main-content__hours-container"></div>
+            <div class="content-container__main-content__search-container">
+                <input type="search" name="search" id="search" placeholder="Search for cities">
+            </div>
+            <div class="content-container__main-content__temp-container">
+                <div class="content-container__main-content__temp-container__weather-container">
+                    <h1 id="town">Madrid</h1>
+                    <span>Chance of rain: 0%</span>
+                    <p id="temperature">31&deg;</p>
+                   
+                </div>
+                <div class="content-container__main-content__temp-container__weather-icon">
+                    <img src="/src/assets/sun.png" alt="weather-icon" id="weather-icon">
+                </div>
+        
+            </div>
+            <div class="content-container__main-content__hours-container">
+                <p id="todays-heading">Today's forecast</p>
+                <div class="content-container__main-content__hours-container__content">
+                   <div class="content-container__main-content__hours-container__content__item">
+                    <p id="hour">06:00AM</p>
+                    <p id="hour-temp">25&deg;</p>
+                   </div> 
+                   <div class="content-container__main-content__hours-container__content__item">
+                    <p id="hour">06:00AM</p>
+                    <p id="hour-temp">25&deg;</p>
+                   </div> 
+                   <div class="content-container__main-content__hours-container__content__item">
+                    <p id="hour">06:00AM</p>
+                    <p id="hour-temp">25&deg;</p>
+                   </div> 
+                   <div class="content-container__main-content__hours-container__content__item">
+                    <p id="hour">06:00AM</p>
+                    <p id="hour-temp">25&deg;</p>
+                   </div> 
+                   <div class="content-container__main-content__hours-container__content__item">
+                    <p id="hour">06:00AM</p>
+                    <p id="hour-temp">25&deg;</p>
+                   </div> 
+                </div>
+            </div>
         </div>
-        <div class="content-container__aside-content"></div>
+        <div class="content-container__aside-content">
+            <p id="heading">7-day forecast</p>
+            <div class="content-container__aside-content__forecast-list">
+                <ul class="content-container__aside-content__forecast-list__list">
+                    <li class="content-container__aside-content__forecast-list__list_item">
+                        <p id="day">Today</p>
+                        <img src="/src/assets/sun-icon.png" alt="sun-icon" id="icon">
+                        <p id="weather-type">Sunny</p>
+                        <p id="day-temp">33/<span>22</span></p>
+                    </li>
+                    <li class="content-container__aside-content__forecast-list__list_item">
+                        <p id="day">Today</p>
+                        <img src="/src/assets/sun-icon.png" alt="sun-icon" id="icon">
+                        <p id="weather-type">Sunny</p>
+                        <p id="day-temp">33/<span>22</span></p>
+                    </li>
+                    <li class="content-container__aside-content__forecast-list__list_item">
+                        <p id="day">Today</p>
+                        <img src="/src/assets/sun-icon.png" alt="sun-icon" id="icon">
+                        <p id="weather-type">Sunny</p>
+                        <p id="day-temp">33/<span>22</span></p>
+                    </li>
+                    <li class="content-container__aside-content__forecast-list__list_item">
+                        <p id="day">Today</p>
+                        <img src="/src/assets/sun-icon.png" alt="sun-icon" id="icon">
+                        <p id="weather-type">Sunny</p>
+                        <p id="day-temp">33/<span>22</span></p>
+                    </li>
+                    <li class="content-container__aside-content__forecast-list__list_item">
+                        <p id="day">Today</p>
+                        <img src="/src/assets/sun-icon.png" alt="sun-icon" id="icon">
+                        <p id="weather-type">Sunny</p>
+                        <p id="day-temp">33/<span>22</span></p>
+                    </li>
+                    <li class="content-container__aside-content__forecast-list__list_item">
+                        <p id="day">Today</p>
+                        <img src="/src/assets/sun-icon.png" alt="sun-icon" id="icon">
+                        <p id="weather-type">Sunny</p>
+                        <p id="day-temp">33/<span>22</span></p>
+                    </li>
+                    <li class="content-container__aside-content__forecast-list__list_item">
+                        <p id="day">Today</p>
+                        <img src="/src/assets/sun-icon.png" alt="sun-icon" id="icon">
+                        <p id="weather-type">Sunny</p>
+                        <p id="day-temp">33/<span>22</span></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </main>
    
     </div>

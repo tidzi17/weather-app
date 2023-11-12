@@ -5,6 +5,16 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: $primary;
-    overflow: hidden;
+    /* overflow: hidden; */
+    font-family: 'Inter', sans-serif;
     
 }
+
+
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v13-latin-regular.woff2') format('woff2'); 
+  }

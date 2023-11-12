@@ -297,6 +297,9 @@
   }
 }
 @media only screen and (max-width: 470px) {
+  .wrapper .content-container {
+    gap: 0%;
+  }
   .wrapper .content-container__main-content__temp-container #weather-icon {
     padding-right: 50%;
   }

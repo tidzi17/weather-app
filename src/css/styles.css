@@ -53,7 +53,7 @@
   align-items: center;
   box-shadow: 0 0 20px rgba(35, 35, 35, 0.2);
 }
-.wrapper .content-container__main-content__search-container #search {
+.wrapper .content-container__main-content__search-container #city-search {
   background: transparent;
   margin-left: 2%;
   width: 35%;
@@ -61,7 +61,7 @@
   height: 70%;
   outline: none;
 }
-.wrapper .content-container__main-content__search-container #search::placeholder, .wrapper .content-container__main-content__search-container #search:not(:placeholder-shown) {
+.wrapper .content-container__main-content__search-container #city-search::placeholder, .wrapper .content-container__main-content__search-container #city-search:not(:placeholder-shown) {
   font-size: 22px;
   color: #c0bfbf;
 }
@@ -83,6 +83,7 @@
   font-weight: 400;
   margin: 0;
   padding: 0;
+  text-transform: capitalize;
 }
 .wrapper .content-container__main-content__temp-container__weather-container span {
   color: #DBCFCF;
@@ -215,7 +216,7 @@
   }
 }
 @media only screen and (max-width: 1024px) {
-  .wrapper .content-container__main-content__search-container #search::placeholder, .wrapper .content-container__main-content__search-container #search:not(:placeholder-shown) {
+  .wrapper .content-container__main-content__search-container #city-search::placeholder, .wrapper .content-container__main-content__search-container #city-search:not(:placeholder-shown) {
     font-size: 16px;
   }
   .wrapper .content-container__main-content__temp-container {
@@ -279,7 +280,10 @@
   .wrapper .content-container__main-content {
     width: 100%;
   }
-  .wrapper .content-container__main-content__search-container #search::placeholder, .wrapper .content-container__main-content__search-container #search:not(:placeholder-shown) {
+  .wrapper .content-container__main-content__search-container #city-search {
+    width: 100%;
+  }
+  .wrapper .content-container__main-content__search-container #city-search::placeholder, .wrapper .content-container__main-content__search-container #city-search:not(:placeholder-shown) {
     font-size: 14px;
   }
   .wrapper .content-container__main-content__hours-container {

@@ -18,13 +18,14 @@
     <main class="content-container">
         <div class="content-container__main-content">
             <div class="content-container__main-content__search-container">
-                <input type="search" name="search" id="search" placeholder="Search for cities">
+                <input type="search" name="search" id="city-search" placeholder="Search for cities">
+                <div id="weather-info"></div>
             </div>
             <div class="content-container__main-content__temp-container">
-                <div class="content-container__main-content__temp-container__weather-container">
-                    <h1 id="town">Madrid</h1>
+                <div class="content-container__main-content__temp-container__weather-container" id="weather-info">
+                    <h1 id="city"></h1>
                     <span>Chance of rain: 0%</span>
-                    <p id="temperature">31&deg;</p>
+                    <p id="temperature"></p>
                    
                 </div>
                 <div class="content-container__main-content__temp-container__weather-icon">
@@ -108,7 +109,7 @@
             </div>
         </div>
     </main>
-   
     </div>
+    <script src="/src/js/api.js"></script>
 </body>
 </html>

@@ -57,7 +57,7 @@
                 display: flex;
                 align-items: center;
                 box-shadow: 0 0 20px rgba(35, 35, 35, 0.2);
-                #search{
+                #city-search{
                     background: transparent;
                     margin-left: 2% ; 
                     width: 35%;
@@ -88,6 +88,7 @@
                         font-weight: 400;
                         margin: 0;
                         padding: 0;
+                        text-transform: capitalize;
                     }
                     span{
                         color: $white-secondary;
@@ -244,7 +245,7 @@
         .content-container{
             &__main-content{
                 &__search-container{
-                    #search{
+                    #city-search{
                     &::placeholder,
                     &:not(:placeholder-shown){
                     font-size: 16px;
@@ -325,7 +326,8 @@
             &__main-content{
                 width: 100%;
                 &__search-container{
-                    #search{
+                    #city-search{
+                        width: 100%;
                         &::placeholder,
                         &:not(:placeholder-shown){
                         font-size: 14px;

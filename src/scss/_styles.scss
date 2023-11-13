@@ -90,8 +90,9 @@
                         padding: 0;
                         text-transform: capitalize;
                     }
-                    span{
+                    #rain-chance{
                         color: $white-secondary;
+                        
                     }
                     #temperature{
                         font-size: 120px;
@@ -124,7 +125,7 @@
                 flex-direction: column;
                 box-shadow: 0 0 20px rgba(35, 35, 35, 0.4);
                 p{
-                    margin-top: 1.5%;
+                    margin-top: 2.5%;
                     margin-left: 4%;
                     font-size: 20px;
                     text-transform: uppercase;
@@ -147,7 +148,6 @@
                         width: 20%;
                         display: flex;
                         padding-left: 2%;
-                        
                         flex-direction: column;
                         #hour{
                             font-size: 19px;
@@ -180,9 +180,9 @@
                 text-transform: uppercase;
                 font-weight: 600;
                 margin-left: 40px;
+                margin-top: 25%;
             }
             &__forecast-list{
-                
                 width: 80%;
                 height: 83%;
                 margin-left: 10%;
@@ -190,10 +190,9 @@
                     width: 100%;
                     height: 100%;
                     padding: 0;
-                    margin: 0;
-                  
+                    margin: 4% auto;
                     list-style-type: none;
-                    &_item{
+                    .list_item{
                         width: auto;
                         height: 14%;
                         display: flex;
@@ -206,9 +205,10 @@
                             font-size: 18px;   
                         }
                         #icon{
-                            width: 25px;
-                            height: 25px;
+                            width: 35px;
+                            height: 35px;
                             margin-right: -15%;
+                            
                         }
                         #day-temp{
                             color: $white;
@@ -382,7 +382,7 @@
                     
                     padding-top: 6%;
                     #weather-icon{
-                        padding-right: 50%;
+                       
                     }
                 }
                

@@ -85,7 +85,7 @@
   padding: 0;
   text-transform: capitalize;
 }
-.wrapper .content-container__main-content__temp-container__weather-container span {
+.wrapper .content-container__main-content__temp-container__weather-container #rain-chance {
   color: #DBCFCF;
 }
 .wrapper .content-container__main-content__temp-container__weather-container #temperature {
@@ -115,12 +115,12 @@
   box-shadow: 0 0 20px rgba(35, 35, 35, 0.4);
 }
 .wrapper .content-container__main-content__hours-container p {
-  margin-top: 1.5%;
+  margin-top: 2.5%;
   margin-left: 4%;
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #88898B;
+  color: #a7a8aa;
 }
 .wrapper .content-container__main-content__hours-container__content {
   /*  border: 1px solid blue; */
@@ -164,10 +164,11 @@
 }
 .wrapper .content-container__aside-content #heading {
   font-size: 20px;
-  color: #88898B;
+  color: #a7a8aa;
   text-transform: uppercase;
   font-weight: 600;
   margin-left: 40px;
+  margin-top: 25%;
 }
 .wrapper .content-container__aside-content__forecast-list {
   width: 80%;
@@ -178,10 +179,10 @@
   width: 100%;
   height: 100%;
   padding: 0;
-  margin: 0;
+  margin: 4% auto;
   list-style-type: none;
 }
-.wrapper .content-container__aside-content__forecast-list__list_item {
+.wrapper .content-container__aside-content__forecast-list__list .list_item {
   width: auto;
   height: 14%;
   display: flex;
@@ -189,24 +190,24 @@
   justify-content: space-between;
   align-items: center;
 }
-.wrapper .content-container__aside-content__forecast-list__list_item #day {
-  color: #4c4c50;
+.wrapper .content-container__aside-content__forecast-list__list .list_item #day {
+  color: #8e8e8f;
   font-weight: 600;
   font-size: 18px;
 }
-.wrapper .content-container__aside-content__forecast-list__list_item #icon {
-  width: 25px;
-  height: 25px;
+.wrapper .content-container__aside-content__forecast-list__list .list_item #icon {
+  width: 35px;
+  height: 35px;
   margin-right: -15%;
 }
-.wrapper .content-container__aside-content__forecast-list__list_item #day-temp {
+.wrapper .content-container__aside-content__forecast-list__list .list_item #day-temp {
   color: #fff;
 }
-.wrapper .content-container__aside-content__forecast-list__list_item span {
-  color: #4c4c50;
+.wrapper .content-container__aside-content__forecast-list__list .list_item span {
+  color: #8e8e8f;
   font-weight: 600;
 }
-.wrapper .content-container__aside-content__forecast-list__list_item #weather-type {
+.wrapper .content-container__aside-content__forecast-list__list .list_item #weather-type {
   color: #fff;
 }
 
@@ -327,9 +328,6 @@
   }
   .wrapper .content-container__main-content__temp-container {
     padding-top: 6%;
-  }
-  .wrapper .content-container__main-content__temp-container #weather-icon {
-    padding-right: 50%;
   }
   .wrapper .content-container__main-content__hours-container {
     height: 30%;

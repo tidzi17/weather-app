@@ -314,6 +314,7 @@
   }
   .wrapper .content-container__aside-content #heading {
     font-size: 14px;
+    margin-top: 6%;
   }
 }
 @media only screen and (max-width: 470px) {
@@ -351,6 +352,9 @@
   }
   .wrapper .content-container__aside-content #icon {
     margin-right: -15%;
+  }
+  .wrapper .content-container__aside-content #heading {
+    margin-top: 15%;
   }
 }
 body {

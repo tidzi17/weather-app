@@ -338,8 +338,8 @@
     width: 100%;
   }
   .wrapper .content-container__main-content__hours-container p {
-    font-size: 14px;
-    margin-top: 3%;
+    font-size: 12px;
+    margin-top: 5%;
   }
   .wrapper .content-container__main-content__hours-container #hour {
     font-size: 10px;
@@ -354,7 +354,7 @@
     margin-right: -15%;
   }
   .wrapper .content-container__aside-content #heading {
-    margin-top: 15%;
+    margin-top: 12%;
   }
 }
 body {
